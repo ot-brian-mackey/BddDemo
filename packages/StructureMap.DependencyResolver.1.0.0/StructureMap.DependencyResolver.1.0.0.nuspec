@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StructureMap.DependencyResolver</id>
+    <version>1.0.0</version>
+    <title>StructureMap Dependency Resolver</title>
+    <authors>satish</authors>
+    <owners>satish</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Structure map dependency resolver is one of the Implementation of Dependency resolver for MVC 4. It provides the Correct way for implementing the structuremap for the webapi tools</description>
+    <tags>MVC4 StructureMap WebApi</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" />
+        <dependency id="structuremap" version="2.6.4.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
